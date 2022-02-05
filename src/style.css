@@ -47,3 +47,11 @@ button {
   font-size: 1rem;
   font-weight: bold;
 }
+
+button:hover {
+  background-color: #e7e4e4;
+}
+
+button:active {
+  transform: scale(0.95);
+}
