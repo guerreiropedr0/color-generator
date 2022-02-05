@@ -7,4 +7,43 @@
   text-decoration: none;
   list-style: none;
   color: inherit;
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-picker {
+  background-color: #1c1a1c;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+#color {
+  color: #5baadd;
+}
+
+button {
+  background-color: transparent;
+  color: #1c1a1c;
+  border: 2px solid #1c1a1c;
+  border-radius: 0.7rem;
+  align-self: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
