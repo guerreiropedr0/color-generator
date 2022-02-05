@@ -1,10 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Template
+# Color Generator
 
-> This repository is a template to all my projects.
+> This project is a color generator.
 
-This template includes Webpack, Stylelint, ESlint and Weblint.
+This website gives you a random color every time you press the button.
+
+## Live Server
+
+In the following link, you can view the [Color Generator website](https://guerreiropedr0-color-generator.netlify.app)
 
 ## Built With
 
@@ -15,11 +19,29 @@ This template includes Webpack, Stylelint, ESlint and Weblint.
 
 ## Getting Started
 
-```
-npm install
-npm run build
-npm start
-```
+Start by cloning the repository.
+
+`git clone git@github.com:guerreiropedr0/color-generator.git`
+
+Navigate to the created folder.
+
+`cd color-generator`
+
+Install all the dependencies.
+
+`npm install`
+
+Run the live server
+
+`npm run start`
+
+Go to [http://localhost:8080](http://localhost:8080)
+
+Build the distribution folder before hosting the app
+
+`npm run build`
+
+After the build you can host the `dist` folder.
 
 ## Authors
 
@@ -37,7 +59,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
 
-I took inspiration from a previous coding partner of mine, check his [GitHub profile](https://github.com/ahmedtaa)
+I took inspiration from freecodecamp's JavaScript project.
 
 ## Show your support
 

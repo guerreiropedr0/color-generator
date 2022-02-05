@@ -1,7 +1,8 @@
 import './style.css';
+import populateColor from './modules/color.js';
 
-const helloWorld = () => {
-  document.querySelector('h1').innerHTML = 'Hello World!';
-};
+populateColor();
 
-helloWorld();
+document.querySelector('button').addEventListener('click', () => {
+  populateColor();
+});
