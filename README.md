@@ -6,6 +6,8 @@
 
 This website gives you a random color every time you press the button.
 
+![screenshot](./preview.png)
+
 ## Live Server
 
 In the following link, you can view the [Color Generator website](https://guerreiropedr0-color-generator.netlify.app)
