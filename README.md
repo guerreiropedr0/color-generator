@@ -6,7 +6,7 @@
 
 This website gives you a random color every time you press the button.
 
-![screenshot](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiNDM2NDZmZGQtMWRiMC00N2U2LWIwZTItNzdlMTkyYWZkNzk2IiwiZGVwbG95X2lkIjoiNjFmZGQ4ZmFlZjQ5OGYwMDA3YWY3Nzg2IiwiaWQiOiIzODI5YmU4NC0yY2M5LTQwODQtYTBlYi05MWZiYmEzYWU2YTIifQ==)
+![screenshot](./preview.png)
 
 ## Live Server
 
