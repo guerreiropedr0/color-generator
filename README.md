@@ -8,7 +8,7 @@ This website gives you a random color every time you press the button.
 
 ## Live Server
 
-In the following link, you can view the [Weather website](https://guerreiropedr0weather.netlify.app/)
+In the following link, you can view the [Color Generator website](https://guerreiropedr0-color-generator.netlify.app)
 
 ## Built With
 
