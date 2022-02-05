@@ -37,7 +37,7 @@ body {
 }
 
 button {
-  background-color: transparent;
+  background-color: #fff;
   color: #1c1a1c;
   border: 2px solid #1c1a1c;
   border-radius: 0.7rem;
