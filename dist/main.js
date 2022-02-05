@@ -110,13 +110,13 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/modules/generateColor.js":
-/*!**************************************!*\
-  !*** ./src/modules/generateColor.js ***!
-  \**************************************/
+/***/ "./src/modules/color.js":
+/*!******************************!*\
+  !*** ./src/modules/color.js ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"populateColor\": () => (/* binding */ populateColor)\n/* harmony export */ });\nconst hexDigits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];\r\n\r\nconst generateColor = () => {\r\n  let color = '#';\r\n  for (let i = 0; i < 6; i += 1) {\r\n    color += hexDigits[Math.floor(Math.random() * hexDigits.length)];\r\n  }\r\n  return color;\r\n};\r\n\r\nconst populateColor = () => {\r\n  document.getElementById('color').textContent = generateColor();\r\n  document.body.style.backgroundColor =\r\n    document.getElementById('color').textContent;\r\n};\r\n\n\n//# sourceURL=webpack://webpack/./src/modules/generateColor.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"generateColor\": () => (/* binding */ generateColor),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst hexDigits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];\n\nconst generateColor = () => {\n  let color = '#';\n  for (let i = 0; i < 6; i += 1) {\n    color += hexDigits[Math.floor(Math.random() * hexDigits.length)];\n  }\n  return color;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\n  document.getElementById('color').textContent = generateColor();\n  document.body.style.backgroundColor =\n    document.getElementById('color').textContent;\n});\n\n\n//# sourceURL=webpack://webpack/./src/modules/color.js?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_generateColor_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/generateColor.js */ \"./src/modules/generateColor.js\");\n\n\n\n(0,_modules_generateColor_js__WEBPACK_IMPORTED_MODULE_1__.populateColor)();\n\n\n//# sourceURL=webpack://webpack/./src/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_color_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/color.js */ \"./src/modules/color.js\");\n\n\n\n(0,_modules_color_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\ndocument.querySelector('button').addEventListener('click', () => {\n  (0,_modules_color_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\n\n//# sourceURL=webpack://webpack/./src/script.js?");
 
 /***/ })
 
